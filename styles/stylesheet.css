@@ -17,3 +17,7 @@ h1 {
 h2{
   color: red;
 }
+
+#med {
+  border: solid 1px black;
+}
