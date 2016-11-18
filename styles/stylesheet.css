@@ -1,3 +1,15 @@
+/*
+COLOR SCHEME
+*** #E4281F - FIRE RED
+*** #00000 - BLACK
+*** #FBF8F9 - WHITE
+*** #2327E3 - BLUE
+*** #C6A8A7 - Light red
+*/
+
+
+
+
 body {
   font-size: 1.1em;
   font-weight: normal;
@@ -7,19 +19,26 @@ body {
   margin: 0 auto;
   max-width: 740%;
   line-height: 1.5;
+  background-color: #C6A8A7;
 }
 h1 {
   font-size: 1.8em;
   font-weight: bold;
-  color: #000000; /*black*/
   text-align: center;
+
 }
-h2{
-  color: red;
+
+h1, h2, h3 {
+  color: white;
+  background-color: #E4281F;
+}
+
+a {
+  color: #2327E3;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #med {
-
-  
   border: solid 1px black;
 }
