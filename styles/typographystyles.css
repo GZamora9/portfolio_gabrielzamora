@@ -79,3 +79,63 @@
 #weight5 {
   /* Change the font-weight property to give it a ultra-bold-weight */
 }
+
+/*** HIERARCHY ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+section {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 560px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+/* Do not change this style */
+section p {
+  font-size: 18px;
+  margin: 2em 4em;
+  max-width: 55%;
+}
+
+/* Change this style */
+ #biggerText {
+
+}
+
+/* Change this style */
+.indent{
+ font-size:0.7em;
+ margin-left: 40%;
+}
+
+/* Change this style */
+.indentdetails{
+ font-size: 0.7em;
+ margin-left: 40%;
+
+}
+
+
+
+#name{
+ font-size: 2.0em;
+ margin-left: 20%
+}
+
+#lewis {
+ font-size: 1.2em;
+ margin-left: 40%;
+}
+
+.Shattuck{
+ font-size: 1.0em;
+   margin-left: 40%;
+
+}
+#Paul{
+ line-height: 0.7;
+ font-size: 1.65em;
+}
