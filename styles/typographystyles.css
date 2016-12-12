@@ -118,8 +118,6 @@ section p {
 
 }
 
-
-
 #name{
  font-size: 2.0em;
  margin-left: 20%
@@ -151,24 +149,49 @@ section p {
   font-size: 32px;
 }
 
+  background-image: url("../images/grand_canyon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
 #weight1 {
   /* Change the font-weight property to give it a thin-weight */
+  font-weight: 100;
+
 }
 
 #weight2 {
   /* Change the font-weight property to give it a light-weight */
+  font-weight:300;
 }
 
 #weight3 {
   /* Change the font-weight property to give it a regular-weight */
+  font-weight: 400;
 }
 
 #weight4 {
   /* Change the font-weight property to give it a bold-weight */
+  font-weight: 500;
 }
 
 #weight5 {
   /* Change the font-weight property to give it a ultra-bold-weight */
+  font-weight: 900;
 }
 
 /*
@@ -183,9 +206,37 @@ section p {
 
 #grandCanyon {
   background-image: url("../images/grand_canyon.jpg");
-  background-size: cover;
-  background-position: center center;
+  background-position: center;
+  text-transform: uppercase;
   height: 500px;
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
+  font-size: 50px
+
+}
+
+#top1{
+  color: #4695DB;
+  font-size: 50px;
+
+  max-width: 50%;
+  text-transform: uppercase;
+  color: #4695DB
+  font-family: monospace;
+  align-self: center;
+  line-height: 0.6;
+
+}
+
+#bottom1{
+  font-size: 20px;
+  padding-top: 20%;
+  width: 750px;
+  color: white
+}
+
+#bottom2 {
+  font-size: 20px;
+  padding-top: 20%;
+  color: yellow
 }
